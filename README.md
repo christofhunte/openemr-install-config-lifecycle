@@ -3,31 +3,29 @@
 </p>
 
 <h1>EMR System Deployed and ran in the Cloud (Azure)</h1>
-This project outlines the istallation, configuration and usage of the OpenEMR software within Azure Virtual Machines.<br />
+This project outlines the istallation, configuration and usage of OpenEMR software within Azure Virtual Machines.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
+- Remote Desktop (Microsoft Remote Desktop)
+- Apache
+- XAMPP
+- PHP
+- MySQL
 - PowerShell
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
 - Windows 10 (22H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>List of Prerequisites</h2>
 
-- Setup Domain Controller and Client-1 in Azure
-- Install Active Directory
-- Create a Domain Admin user within the domain
-- Join Client-1 to your domain (mydomain.com)
-- Setup Remote Desktop for non-administrative users on Client-1
-- Create a bunch of additional users and attempt to log into client-1 with one of the users
-- Dealing with Account Lockouts
-- Enabling and Disabling Accounts
-- Observing Logs
+- IIS installed with CGI
+- MySQL
+- PHP registered from within IIS
+- Extensions within PHP manager are enabled
+- Hedi SQL and MySQL on osTicket are set up
 
 
 <h2>Deployment and Configuration Steps</h2>
