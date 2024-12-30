@@ -9,11 +9,8 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop (Microsoft Remote Desktop)
-- Apache
-- XAMPP
-- PHP
-- MySQL
 - PowerShell
+- OpenEMR
 
 <h2>Operating Systems Used </h2>
 
@@ -21,11 +18,10 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 
 <h2>List of Prerequisites</h2>
 
-- IIS installed with CGI
+- Apache
+- XAMPP
+- PHP
 - MySQL
-- PHP registered from within IIS
-- Extensions within PHP manager are enabled
-- Hedi SQL and MySQL on osTicket are set up
 
 
 <h2>Deployment and Configuration Steps</h2>
