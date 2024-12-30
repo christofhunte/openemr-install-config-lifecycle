@@ -22,32 +22,55 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 - XAMPP
 - PHP
 - MySQL
+- OpenEMR Directory
 
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/Z6rVp93.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NTrh00g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MqftraI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xNRhNlv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-The first step I did was creating a Resource Group in Azure and titled it "Active-Directory-Lab".
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/cRjq0oK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-The next step I did was creating a virtual network and subnet for the virtual machines to run on. I placed the virtual network in the the Resource Group I created.
+1. First I created a Windows 10 Virtual Machine within Azure to deploy OpenEMR on. I placed it within a new Resource Group and also created a new Virtual Network.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/R3cztcO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/7JuFful.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/UtjTLIv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fEY9Raw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s6eeJd4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PoOobZ3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I then created a virtual machine for the domain controller and titled it "dc-1". I set its operating system to Windows Server 2022 with the username "chlabuser". I also set it's size to 2 vcpus with a 16 GiB memory to be certain the server can handle all that I will be doing going forward.
+2. I copied the public IP Address from the Virtual Machine and pasted into Remote Desktop (Microsoft Remote Desktop). I then logged into the server with the username and password I created for the VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/XmvGdgI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jGN6kd4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+3. I ran a ping in PowerShell using the private IP Address for the virtual machine just test the connectivity of the network.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YB5eCuZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1wyTKny.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hknoyOW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+4. I downloaded the prerequisites in order for the OpenEMR software to run. I downloaded XAMMP Installer from the Apache website as well as the OpenEMR archive. The XAMPP contains Apache, MySQL and PHP which will be needed OpenEMR to run.
+</p>
+
+<p>
+<img src="https://i.imgur.com/ZuzI0Pr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fq2qbdD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4VRFvxW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+5. I then installed XAMMP software onto the server with the components of MySQL, PHP, and Apache as well as others not necassarily needed for this project but I installed anyway. 
 </p>
 <br />
