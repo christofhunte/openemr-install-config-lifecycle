@@ -39,8 +39,8 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 
 <p>
 <img src="https://i.imgur.com/fEY9Raw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/s6eeJd4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/PoOobZ3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/s6eeJd4.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PoOobZ3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 2. I copied the public IP Address from the Virtual Machine and pasted it into Remote Desktop (Microsoft Remote Desktop). I then logged into the server with the username and password I created for the VM.
@@ -57,9 +57,9 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <br />
 
 <p>
-<img src="https://i.imgur.com/YB5eCuZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/1wyTKny.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/hknoyOW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YB5eCuZ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1wyTKny.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hknoyOW.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 4. I downloaded the prerequisites in order for the OpenEMR software to run. I downloaded XAMMP Installer from the Apache website as well as the OpenEMR archive. The XAMPP contains Apache, MySQL and PHP which will be needed OpenEMR to run.
@@ -67,7 +67,7 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 
 <p>
 <img src="https://i.imgur.com/ZuzI0Pr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/fq2qbdD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fq2qbdD.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/4VRFvxW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
