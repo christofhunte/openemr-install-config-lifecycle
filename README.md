@@ -133,6 +133,6 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <img src="https://i.imgur.com/df0ILXA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-11. I finished installation in the web-broswer. After going to the installation script "http://localhost/openemr", I ensured file and directory permissions were correct. Then I proceeded to step 1 and selected to create a database in setup. Then on the next page I confirmed the MySQL Server Details and filled out the OpenEMR Initial User Details. After creating database and first user I configured PHP, and then configured the Apache web server. After selecting a dark them "OpenEMR" was successfully installed.
+11. I finished installation in the web-broswer. After going to the installation script "http://localhost/openemr", I ensured the file and directory permissions were correct. Then I proceeded to step 1 and selected to create a database in setup. Then on the next page I confirmed the MySQL Server Details and filled out the OpenEMR Initial User Details. After creating database and first user I configured PHP, and then configured the Apache web server. After selecting a dark theme, "OpenEMR" was successfully installed.
 </p>
 <br />
