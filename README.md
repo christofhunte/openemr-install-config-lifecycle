@@ -43,7 +43,7 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <img src="https://i.imgur.com/PoOobZ3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. I copied the public IP Address from the Virtual Machine and pasted into Remote Desktop (Microsoft Remote Desktop). I then logged into the server with the username and password I created for the VM.
+2. I copied the public IP Address from the Virtual Machine and pasted it into Remote Desktop (Microsoft Remote Desktop). I then logged into the server with the username and password I created for the VM.
 </p>
 <br />
 
@@ -52,7 +52,7 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <img src="https://i.imgur.com/jGN6kd4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-3. I ran a ping in PowerShell using the private IP Address for the virtual machine just test the connectivity of the network.
+3. I ran a ping in PowerShell using the private IP Address for the virtual machine just to test the connectivity of the network.
 </p>
 <br />
 
@@ -72,5 +72,53 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 </p>
 <p>
 5. I then installed XAMMP software onto the server with the components of MySQL, PHP, and Apache as well as others not necassarily needed for this project but I installed anyway. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4KCCXAz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1NqGMuB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+6. Windows Defender Firewall blocked me from running MySQL and Apache so I had to allow access for them to run. Once I did that Apache and MySQL started running in the server.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/XFhWf89.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XTFzqjT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Z32Lf3F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cCkjUp4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+7. I copied and pasted the recommended PHP script from OpenEMR's website and pasted it into the Apache PHP code on the XAMPP Control Panel.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/x5HV1cZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/u2TPVil.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+8. I stopped and started back up Apache after saving the updated PHP script.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/eIZFHh6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BymB1bQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vfEKcic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+9. I extracted all of the contents from the "openemr-7.02" zip into the "htdocs" directory within the "XAMMP" folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/RucXfM7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LbeZnrq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+10. I changed the name of the directory from "openemr-7.02" to just "openemr". (I actually had a bit of trouble at this point because I forgot to do this step. The webserver for OpenEMR gave me a 404 error so I started toubleshooting and eventually realized that I had to change the directory name. It was a great learning experience particularly for troubleshooting.)
 </p>
 <br />
