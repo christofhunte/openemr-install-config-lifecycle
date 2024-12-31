@@ -122,3 +122,17 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 10. I changed the name of the directory from "openemr-7.02" to just "openemr". (I actually had a bit of trouble at this point because I forgot to do this step. The webserver for OpenEMR gave me a 404 error so I started toubleshooting and eventually realized that I had to change the directory name. It was a great learning experience particularly for troubleshooting.)
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/li4aWfX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LL5TNb2.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/osXfbLR.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fw907kA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dKdUtS0.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fRabtKM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/df0ILXA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+11. I finished installation in the web-broswer. After going to the installation script "http://localhost/openemr", I ensured file and directory permissions were correct. Then I proceeded to step 1 and selected to create a database in setup. Then on the next page I confirmed the MySQL Server Details and filled out the OpenEMR Initial User Details. After creating database and first user I configured PHP, and then configured the Apache web server. After selecting a dark them "OpenEMR" was successfully installed.
+</p>
+<br />
