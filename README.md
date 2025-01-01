@@ -148,8 +148,8 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <br />
 
 <p>
-<img src="https://i.imgur.com/swgcO5f.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/jTadUNp.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/swgcO5f.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jTadUNp.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 13. I started browsing the User/Groups tab and examined the features and what I can edit. I used my own user account that was already created as reference. I kept my access control set to "Administrators".
@@ -157,8 +157,8 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <br />
 
 <p>
-<img src="https://i.imgur.com/YSB6J6k.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/tAJYIxT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YSB6J6k.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tAJYIxT.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 14. I created new users. One named "Jane Doe" and the other named "John Doe". I set their acces control to both "Physicians". 
@@ -166,10 +166,10 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <br />
 
 <p>
-<img src="https://i.imgur.com/gdegTco.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/zpbwzBA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/FoIe9l1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/SjHBgPv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gdegTco.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zpbwzBA.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FoIe9l1.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SjHBgPv.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 15. I navigated to the "Search or Add Patient" section and created a new patient titled "Karen Doe". I filled in relevant parameters such as "Provider" and "Care Team".
@@ -177,9 +177,9 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <br />
 
 <p>
-<img src="https://i.imgur.com/X3LbOWs.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/dDGtpet.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/3UPupf1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/X3LbOWs.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dDGtpet.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3UPupf1.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 16. After the patient was created I added a "Medical Problem"  of "Dry Eye" to simulate updating a patients medical records. 
@@ -187,11 +187,41 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <br />
 
 <p>
-<img src="https://i.imgur.com/YSB6J6k.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/tAJYIxT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7Hn6rzz.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-14. I created new users. One named "Jane Doe" and the other named "John Doe". I set their acces control to both "Physicians". 
+17. I explored to the "Patient Finder" section and found "Karen Doe". This would be where Physicians would go to look up patients.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/nRlFezg.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MzSrFe3.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+18. I navigated to the "Messages, Reminders, Recalls" section to simulate setting a reminder to "Jane Dough" as "Christof Hunte" who is an administrator about an appointment for "Karen Doe's" test the next day. I also sent a regular message as well.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YhiovYB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/B5OlJQy.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FdQl8nN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3xOgMfO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EThIXKp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+19. I just started browsing other tabs such as "Pharmacies", "Fees", "Procedures" etc.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/X3LbOWs.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dDGtpet.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3UPupf1.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+20. Finally I logged into the "OpenEMR" as "Jane Doe" to view the layout as a Physician instead of an admin. I just explored different tabs such as the "Messages, Reminders, Recalls" etc. After this the project of deploying an EMR system in an Azure Virtual Machine was successful.
 </p>
 <br />
 
