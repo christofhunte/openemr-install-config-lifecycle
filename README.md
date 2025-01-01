@@ -133,6 +133,65 @@ This project outlines the istallation, configuration and usage of OpenEMR softwa
 <img src="https://i.imgur.com/df0ILXA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-11. I finished installation in the web-broswer. After going to the installation script "http://localhost/openemr", I ensured the file and directory permissions were correct. Then I proceeded to step 1 and selected to create a database in setup. Then on the next page I confirmed the MySQL Server Details and filled out the OpenEMR Initial User Details. After creating database and first user I configured PHP, and then configured the Apache web server. After selecting a dark theme, "OpenEMR" was successfully installed.
+11. I finished installation in the web-broswer. After going to the installation script "http://localhost/openemr", I ensured the file and directory permissions were correct. Then I proceeded to step 1 and selected to create a database in setup. Then on the next page I confirmed the MySQL Server Details and filled out the OpenEMR Initial User Details. After creating database and first user I configured PHP, and then configured the Apache web server. After selecting a dark theme, "OpenEMR" was successfully installed. 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/W2p7m6H.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KfOjGiE.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/G8cKsVI.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+12. Once "OpenEMR" was installed I started exploring the system. First logged in with the credentials I created in the preious step. Next I went to the "Facilities" tab and created the name "Hunte Healthcare Center".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/swgcO5f.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jTadUNp.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+13. I started browsing the User/Groups tab and examined the features and what I can edit. I used my own user account that was already created as reference. I kept my access control set to "Administrators".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YSB6J6k.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tAJYIxT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+14. I created new users. One named "Jane Doe" and the other named "John Doe". I set their acces control to both "Physicians". 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/gdegTco.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zpbwzBA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FoIe9l1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SjHBgPv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+15. I navigated to the "Search or Add Patient" section and created a new patient titled "Karen Doe". I filled in relevant parameters such as "Provider" and "Care Team".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/X3LbOWs.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dDGtpet.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3UPupf1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+16. After the patient was created I added a "Medical Problem"  of "Dry Eye" to simulate updating a patients medical records. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/YSB6J6k.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tAJYIxT.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+14. I created new users. One named "Jane Doe" and the other named "John Doe". I set their acces control to both "Physicians". 
+</p>
+<br />
+
